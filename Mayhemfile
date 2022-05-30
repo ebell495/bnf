@@ -1,8 +1,6 @@
 project: bnf
-target: bnf
+target: fuzzing
 
-image: ghcr.io/ebell495/bnf:latest
-duration: 300
 tests: null
 
 cmds:
