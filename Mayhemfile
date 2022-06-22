@@ -1,7 +1,8 @@
 project: bnf
 target: fuzzing
 
-tests: null
+testcases: 
+    - file://./tests/fixtures
 
 cmds:
     - cmd: ./fuzzing @@
